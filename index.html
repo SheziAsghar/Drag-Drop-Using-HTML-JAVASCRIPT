@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Drag & Drop Elements with JavaScript and HTML</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<div class="imgBox" draggable="true" ondragstart="drag(event)" id="first" ondragover="allowDrop(event)" ondrop="drop(event)"></div>
+	<div class="whiteBox" id="second" ondragover="allowDrop(event)" ondrop="drop(event)"></div>
+	<div class="whiteBox" id="third" ondragover="allowDrop(event)" ondrop="drop(event)"></div>
+	<div class="whiteBox" id="fourth" ondragover="allowDrop(event)" ondrop="drop(event)"></div>
+
+</body>
+<script type="text/javascript" src="index.js"></script>
+</html>

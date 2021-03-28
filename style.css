@@ -1,0 +1,23 @@
+body{
+	background: darkslateblue;
+}
+
+.imgBox{
+	background-image: url('photo.png');
+	position: relative;
+	right: 168px;
+	bottom: 82px;
+	height: 250px;
+	width: 350px;
+	cursor: pointer;
+
+}
+
+.whiteBox{
+	display: inline-block;
+	background-color: white;
+	height: 175px;
+	width: 175px;
+	margin: 5px;
+	border: 3px black solid;
+}
